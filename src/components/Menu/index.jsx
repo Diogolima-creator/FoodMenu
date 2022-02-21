@@ -6,6 +6,8 @@ import { MenuCard } from '../MenuCard';
 import { menuItems } from '../../data/menuItems';
 import { MenuItem } from '../MenuItem';
 import { useState } from 'react';
+import images from '../../images/pizza.png';
+import images1 from '../../images/frits.jpg';
 
 export const Menu = () => {
 
@@ -35,7 +37,7 @@ export const Menu = () => {
     return(
         <C.Container id='menu'>
             <div className='left'>
-                <img src='images/frits.jpg'></img>
+                <img src={images1}></img>
             </div>
             <div className='center'>
                 <div className='menu-center-text'>
@@ -65,7 +67,7 @@ export const Menu = () => {
                 </div>
             </div>
             <div className='right'>
-                <img className='right-Img'src='images/pizza.png'></img>
+                <img className='right-Img'src={images}></img>
             </div>
         </C.Container>
     )

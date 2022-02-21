@@ -2,7 +2,7 @@ import * as C from './styles';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import { faPhone, faGlobe, faLocationDot} from '@fortawesome/free-solid-svg-icons';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
-
+import images from '../../images/spaghetti.png'
 
 export const Contact = () => {
     return(
@@ -30,7 +30,7 @@ export const Contact = () => {
             </div>
             <div className='right'>
                 <div className='right-image'>
-                    <img src='images/spaghetti.png'></img>        
+                    <img src={images}></img>        
                 </div>
                 <div>
                     <div className='right-text'>

@@ -2,12 +2,14 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlay } from '@fortawesome/free-solid-svg-icons';
 import * as C from './styles';
 import { faFacebookF,faLinkedinIn,faTwitter,faPinterest} from '@fortawesome/free-brands-svg-icons';
+import images from '../../images/pimenta.png'
+import images1 from '../../images/home.png'
 
 export const Home = () => {
     return(
         <C.Container>
             <div className='background-left'>
-                <img src='images/pimenta.png' alt=''></img>
+                <img src={images} alt=''></img>
             </div>
             <div className='background-circle'>
                     <div className='background-circle-bold'>
@@ -25,7 +27,7 @@ export const Home = () => {
                         <button className='btn-play'><FontAwesomeIcon icon={faPlay} className="icon"/> See how it work</button>
                     </div>
                     <div className='background-circle-img'>
-                        <img src='images/home.png' alt=''></img>
+                        <img src={images1} alt=''></img>
                     </div>
                     <div className='background-circle-social'>
                     <a href='https://www.facebook.com/' target="_blank"><FontAwesomeIcon icon={faFacebookF} className="icon-social"/></a>

@@ -1,12 +1,16 @@
 import * as C from './styles'
 import { FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import { faAppleWhole, faCartShopping,faMotorcycle} from '@fortawesome/free-solid-svg-icons';
+import images from '../../images/onion.png'
+import images1 from '../../images/bowlSalad.jpg'
+import images2 from '../../images/shop.jpg'
+import images3 from '../../images/motoboy.jpg'
 
 export const Features = () => {
     return(
         <C.Container id='service'>
             <div className='features-img'>
-                <img src="images/onion.png" alt="" />
+                <img src={images} alt="" />
             </div>
             <div className='features-div'>
                 <p>Features</p>
@@ -15,7 +19,7 @@ export const Features = () => {
             <div className='features-cards'>
 
                 <div className='card'>
-                    <img src='images/bowlSalad.jpg' alt='' />
+                    <img src={images1} alt='' />
                     <p className='card-title'>Healthy Food</p>
                     <p className='card-text'>Lorem ipsum dolor sit amet, 
                                 consectetur adipiscing elit, 
@@ -25,7 +29,7 @@ export const Features = () => {
                 </div>
 
                 <div className='card'>
-                    <img src='images/shop.jpg' alt='' />
+                    <img src={images2} alt='' />
                     <p className='card-title'>Online Order</p>
                     <p className='card-text'>Lorem ipsum dolor sit amet, 
                                 consectetur adipiscing elit, 
@@ -35,7 +39,7 @@ export const Features = () => {
                 </div>
 
                 <div className='card'>
-                <img src='images/motoboy.jpg' alt='' />
+                <img src={images3} alt='' />
                     <p className='card-title'>Home Delivery</p>
                     <p className='card-text'>Lorem ipsum dolor sit amet, 
                                 consectetur adipiscing elit, 
