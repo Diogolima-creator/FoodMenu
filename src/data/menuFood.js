@@ -1,0 +1,32 @@
+export const menuFood = [
+    {
+        Name:'Pizza',
+        Url:'images/pizzaMenu.png',
+        type:'pizza'
+    },
+    {
+        Name:'Vegetables',
+        Url:'images/vegetablesMenu.jpg',
+        type:'vegetables'
+    },
+    {
+        Name:'Hamburguer',
+        Url:'images/hamburguerMenu.jpg',
+        type:'hamburguer'
+    },
+    {
+        Name:'Drinks',
+        Url:'images/drinksMenu.jpg',
+        type:'drinks'
+    },
+    {
+        Name:'Coffe and Tea',
+        Url:'images/coffeMenu.jpg',
+        type:'coffe'
+    },
+    {
+        Name:'Japanese',
+        Url:'images/japaneseMenu.jpg',
+        type:'japanese'
+    }
+]
