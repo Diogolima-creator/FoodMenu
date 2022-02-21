@@ -2,6 +2,7 @@ import * as C from './styles';
 import { FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import { faFire, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { faFacebookF,faLinkedinIn,faTwitter,faPinterest} from '@fortawesome/free-brands-svg-icons';
+
 export const Footer = () => {
     return(
         <C.Container>

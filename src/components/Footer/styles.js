@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import images from '../../images/footer.jpg'
 
 export const Container = styled.div`
     width:100%;
@@ -8,7 +9,7 @@ export const Container = styled.div`
         width:100%;
         height:500px;
         position:absolute;
-        background-image:url(images/footer.jpg);
+        background-image:url(${images});
         background-repeat: no-repeat;
         background-size: cover;
         filter: blur(4px);
