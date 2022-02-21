@@ -2,7 +2,7 @@ import * as C from './styles';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
-import { testimonialList } from '../../data/TestimonialList';
+import { testimonialList } from '../../data/testimonialList';
 import { MemorialCard } from '../MemorialCard';
 
 export const Memorial = () => {
