@@ -1,11 +1,13 @@
 import * as C from './styles'
+import images from '../../images/teste.png'
+
 export const About = () => {
     return(
         <C.Container>
             <div className='about'>
                 <div className='about-img'>
                     <div className='circle-yellow'></div>
-                    <img src='images/teste.png' alt=''></img>
+                    <img src={images} alt=''></img>
                     
                 </div>
                 <div className='about-text'>
