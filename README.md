@@ -49,6 +49,7 @@ O deploy foi feito pela vercel.
 
 ## Aprendizados
 
-Esse projeto foi muito divertido de ser feito, pois nunca havia feito um projeto com design tão legais e bonitos. E ficou nítido a minha melhora em CSS.## Autores
+Esse projeto foi muito divertido de ser feito, pois nunca havia feito um projeto com design tão legais e bonitos. E ficou nítido a minha melhora em CSS.
+## Autores
 
 - [@Diogo Lima](https://github.com/Diogolima-creator)
