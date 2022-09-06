@@ -41,7 +41,7 @@ export const Footer = () => {
                     <div className='footer-social'>
                         <a href='https://www.facebook.com/' target="_blank"><FontAwesomeIcon icon={faFacebookF} className="icon-social"/></a>
                         <a href='https://www.linkedin.com/in/diogo-lima1408/'  target="_blank"><FontAwesomeIcon icon={faLinkedinIn} className="icon-social"/></a>
-                        <a href='https://twitter.com/Diogo_NCSM'  target="_blank"><FontAwesomeIcon icon={faTwitter} className="icon-social"/></a>
+                        <a href='https://twitter.com/'  target="_blank"><FontAwesomeIcon icon={faTwitter} className="icon-social"/></a>
                         <a href='https://pinterest.com/'  target="_blank"><FontAwesomeIcon icon={faPinterest} className="icon-social"/></a>
                     </div>
                 </div>  
